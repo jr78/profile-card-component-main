@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(185, 75%, 39%) ; 
+    background-image: url('images/bg-pattern-top.svg'), url('images/bg-pattern-bottom.svg');
+    background-position: bottom 38vh right 52vw, top 48vh left 50vw;
+    background-repeat: no-repeat;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.tarjeta {
+    background-color: white;
+    box-shadow: 0px 0px 30px 1px hsla(227, 10%, 46%, 0.3);
+    border-radius: 15px;
+    width: 350px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+
+}
+
+.cabecera {
+    width: 350px;
+    height: 140px;
+    background: url("images/bg-pattern-card.svg");
+    border-radius: 15px 15px 0 0;
+    text-align: center;
+
+}
+
+.cabecera img {
+    border: 5px solid white;
+    border-radius: 5em;
+    transform: translateY(81%);
+}
+
+.info {
+    text-align: center;
+    margin-top: 22%;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+    padding: 0px 45px;
+    padding-top: 20px;
+    border-top: 1px solid rgb(185, 179, 179);
+}
+
+/* Letras  */
+.top {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.bottom {
+    padding: 5px 0px;
+    color: gray;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+h1 {
+    padding: 0px 20px;
+}
+
+span {
+    font-size: 23px;
+    font-weight: 400;
+    color: gray;
+    padding-left: 10px;
+}
+
+p {
+    color: gray;
+    font-weight: 200;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
